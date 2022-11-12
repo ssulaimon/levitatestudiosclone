@@ -56,7 +56,11 @@ class Contancts extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20),
               child: TextFormField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black)),
+                    focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black)),
                     hintText: 'Email',
                     contentPadding: EdgeInsets.symmetric(horizontal: 30)),
               ),
@@ -64,7 +68,11 @@ class Contancts extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20),
               child: TextFormField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black)),
+                    focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black)),
                     hintText: 'Phone Number',
                     contentPadding: EdgeInsets.symmetric(horizontal: 30)),
               ),
@@ -72,14 +80,21 @@ class Contancts extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20),
               child: TextFormField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black)),
+                    focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black)),
                     hintText: 'Requirement',
                     contentPadding: EdgeInsets.symmetric(horizontal: 30)),
               ),
             ),
             ElevatedButton(
-              style: ButtonStyle(
-                  backgroundColor: MaterialStatePropertyAll(Colors.grey)),
+              style: const ButtonStyle(
+                backgroundColor: MaterialStatePropertyAll(
+                  Colors.grey,
+                ),
+              ),
               onPressed: () {},
               child: const Text(
                 'Submit',

@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.white,
+        backgroundColor: const Color(0xFFF5F2FC),
         toolbarHeight: 100,
         flexibleSpace: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                     decoration: BoxDecoration(
                         color: green, borderRadius: BorderRadius.circular(10)),
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 30, vertical: 15),
+                        horizontal: 40, vertical: 20),
                     child: Text(
                       'Contact',
                       style: GoogleFonts.ubuntu(

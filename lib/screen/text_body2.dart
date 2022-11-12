@@ -18,6 +18,9 @@ class TextBody2 extends StatelessWidget {
           flex: 1,
           child: Image(image: AssetImage('images/5.png')),
         ),
+        const SizedBox(
+          width: 200,
+        ),
         Expanded(
           flex: 1,
           child: Column(

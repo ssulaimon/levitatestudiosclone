@@ -15,8 +15,8 @@ class FooterContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     AppBarLogic appBarLogic = AppBarLogic();
     return Container(
-      padding: const EdgeInsets.all(20),
-      height: 300,
+      padding: const EdgeInsets.all(50),
+      height: 500,
       width: double.infinity,
       color: const Color(0xFF173E37),
       child: Row(
@@ -80,7 +80,17 @@ class FooterContainer extends StatelessWidget {
                         icon: const Icon(FontAwesomeIcons.instagram),
                         color: Colors.white)
                   ],
-                )
+                ),
+                const SizedBox(
+                  height: 50,
+                ),
+                Text(
+                  '© 2022 Levitate Studios',
+                  style: GoogleFonts.poppins(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ],
             ),
           ),
